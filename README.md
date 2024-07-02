@@ -1,92 +1,143 @@
-# Analyzing_Amazon_Sales_Data
- This repository contains an analysis of Amazon sales data. The analysis is performed using a Jupyter Notebook that processes and visualizes the data from a CSV file.
-## Repository Contents
-a. Amazon Sales data.csv: The CSV file containing the sales data.
+# 🛒 Amazon Sales Analysis
 
+## 🔍 Overview
 
-b. Amazon_Sales.ipynb: The Jupyter Notebook that contains the code for data analysis.
+This project focuses on analyzing Amazon sales data to uncover insights and trends related to revenue, order priority, and regional sales distribution. By examining the dataset, the goal is to identify patterns and provide actionable insights for business decision-making.
 
-c. Visualizations : Contains Visualizations of the analysis.
+## 📝 Objective
 
-### Requirements
+The primary objectives of this project are:
 
-To run the analysis, you need the following:
+1. **Data Preprocessing**: Clean and prepare the dataset by handling missing values, removing duplicates, and standardizing data types.
+2. **Exploratory Data Analysis (EDA)**: Explore the dataset to summarize its main characteristics and identify key patterns and trends.
+3. **Detailed Analysis**: Conduct deeper analysis to uncover significant relationships and insights.
+4. **Visualizations**: Create comprehensive visualizations to represent findings and insights from the analysis.
+5. **Additional Analysis**: Utilize advanced techniques like anomaly detection, feature engineering, and hypothesis testing to uncover further insights.
 
-i. Python 3.6 or higher
-ii. Jupyter Notebook
+## 📄 Dataset
+
+The project uses a dataset containing various attributes related to Amazon sales:
+
+- **Amazon_Sales.csv**: This dataset includes detailed information on attributes like product name, order date, region, revenue, and order priority.
+
+## 📋 Methodology
+
+The project follows a structured approach:
+
+1. **Data Preprocessing**:
+
+   - Loading the dataset.
+   - Inspecting the data to get an overview.
+   - Handling missing values and removing duplicates.
+   - Converting data types to appropriate formats.
+   - Standardizing column names for consistency.
+   - Detecting and handling outliers.
+   - Normalizing or standardizing data for analysis.
+
+2. **Exploratory Data Analysis (EDA)**:
+
+   - Analyzing the distribution of key variables such as revenue, order priority, and region.
+   - Investigating the relationships between different attributes in the dataset.
+
+3. **Detailed Analysis**:
+
+   - Top Products by Revenue: Identifying top-performing products based on total revenue.
+   - Monthly Sales Trend: Analyzing monthly sales trends to understand seasonality.
+   - Order Priority Prediction: Implementing machine learning models to predict order priority based on other attributes.
+
+4. **Visualizations**:
+
+   - Creating plots to visualize the distribution and relationships of key variables.
+   - Visualizing trends, top products, and geographical sales distributions.
+
+5. **Additional Analysis**:
+
+   - Engaging in advanced feature engineering to capture complex relationships.
+   - Using dimensionality reduction techniques like PCA and t-SNE for visualization.
+   - Implementing anomaly detection to identify unusual data points.
+   - Conducting hypothesis testing to statistically validate assumptions about the data.
+
+## ✅ Requirements
+
+To run this project, you'll need the following:
+
+- Python 3.7 or later
+- Jupyter Notebook or any other Python IDE
 
 The following Python libraries:
 
-a. pandas
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- scikit-learn
+- scipy
 
-b. numpy
+You can install the required libraries using pip:
 
-c. matplotlib
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn scipy
+```
 
-d. seaborn and more...!!
+## 🖥️ Usage
 
-### Data
+To perform the analysis:
 
-The Amazon Sales data.csv file contains the following columns:
+1. Clone this repository to your local machine.
 
-Order ID
+```bash
+git clone https://github.com/jicsjitu/Analyzing_Amazon_Sales_Data.git
+```
 
-Product
+2. Open the Jupyter Notebook containing the analysis.
 
-Quantity Ordered
+```bash
+cd Analyzing_Amazon_Sales_Data
+jupyter notebook Amazon_Sales.ipynb
+```
 
-Price Each
+3. Execute the cells in the notebook to perform data cleaning, analysis, and visualization.
 
-Order Date
+## 📁 Files in the Repository
 
-Purchase Address
+- **Amazon_Sales.ipynb**: The Jupyter notebook containing the code for data cleaning, analysis, and visualization.
+- **Amazon Sales data.csv**: The dataset with information on various attributes related to Amazon sales.
+- **README.md**: This README file provides an overview and instructions for the project.
+- **visualizations/**: A folder containing the visualizations generated from the analysis.
 
-## Analysis
+## 📈 Results
 
-The analysis performed in the Jupyter Notebook includes:
+### Key Findings
 
-Data cleaning and preprocessing
+1. **Top Products by Revenue**
+2. **Monthly Sales Trend**
+3. **Total Revenue by Region and more.**
 
-Sales trends analysis
+### Visualizations
 
-Top-selling products
+1. **Top 10 Products by Revenue**: Bar chart showing the top 10 products based on total revenue.
+   ![image](https://github.com/jicsjitu/Analyzing_Amazon_Sales_Data/assets/162569175/1825cb07-fd4c-4519-94de-fe29d0c645dc)
 
-Sales by month, city, and time
+2. **Monthly Sales Trend**: Line plot illustrating monthly sales trends.
+![image](https://github.com/jicsjitu/Analyzing_Amazon_Sales_Data/assets/162569175/f4ef1c7b-c23d-4c63-be30-4fb744c46945)
 
-Visualizations using Matplotlib and Seaborn
+3. **Total Revenue by Region**: Bar chart showing the Total Revenue by Region.
+   ![image](https://github.com/jicsjitu/Analyzing_Amazon_Sales_Data/assets/162569175/c662d2ed-fedb-4231-8e90-f5402f292e7b)
 
-## Results
+4. **Top 10 Countries by Total Revenue**: Bar chart showing the top 10 countries based on total revenue.
+![image](https://github.com/jicsjitu/Analyzing_Amazon_Sales_Data/assets/162569175/ea829fcf-e552-44bb-bb2b-8c607a0f1a97)
 
-The results of the analysis are presented in the notebook through various charts and graphs. Key insights include:
+5. **Box Plot of Total Profit by Item Type**: Box plot showing the total profit based on item type.
+![image](https://github.com/jicsjitu/Analyzing_Amazon_Sales_Data/assets/162569175/fd773bf2-4606-45ab-b1b0-1680fb532ef9)
 
-Monthly sales trends
+## 🔚 Conclusion
 
-Best-performing products and categories
+This analysis provides a comprehensive view of Amazon sales data, offering insights into revenue patterns, top-performing products, and sales trends. The visualizations and statistical analyses can aid in understanding the dynamics of sales performance, potentially helping business analysts, marketers, and decision-makers in their efforts to optimize sales strategies.
 
-Geographical sales distribution
+## 💬 Feedback and Questions
 
-Time-based sales patterns
+If you have any feedback or questions about the project, please feel free to ask. We appreciate your input and are here to help. You can reach out by opening an issue on GitHub or by emailing [jitukumar9387@gmail.com](mailto:jitukumar9387@gmail.com).
 
-## Screenshots
+Thank you for exploring the Amazon Sales Analysis Project! We hope you find it insightful and informative.
 
-Here are some screenshots of the visualizations and analyses performed in the notebook:
-
-![image](https://github.com/jicsjitu/Analyzing_Amazon_Sales_Data/assets/162569175/823971be-7238-4c94-997e-066e1b084129)
-
-![image](https://github.com/jicsjitu/Analyzing_Amazon_Sales_Data/assets/162569175/bffe377b-02cb-4572-9b2c-dd9279f0212d)
-
-![image](https://github.com/jicsjitu/Analyzing_Amazon_Sales_Data/assets/162569175/d2834e0b-72bc-456c-8c17-1873ec2af079)
-
-![image](https://github.com/jicsjitu/Analyzing_Amazon_Sales_Data/assets/162569175/d87ea615-7bee-4ef0-8e09-e265aaf250e5)
-
-![image](https://github.com/jicsjitu/Analyzing_Amazon_Sales_Data/assets/162569175/fe540196-12c8-458b-8d25-6f2ac9d8d468)
-
-![image](https://github.com/jicsjitu/Analyzing_Amazon_Sales_Data/assets/162569175/dfdbe65a-db00-4c44-9b52-638014e5b2e8)
-
-Thank you for checking out the Analyzing Amazon Sales Data Project! We hope you find it useful and informative.
-
-## Feedback and Questions
-
-If you have any feedback or questions about the project, please feel free to ask. We are here to help and appreciate your input. You can reach out by opening an issue on GitHub or by emailing us at jitukumar9387@gmail.com
-
-Happy analyzing!
+Happy Analyzing!
